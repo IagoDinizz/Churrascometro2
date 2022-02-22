@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+    max-width: 600px;
+    
+    background-image: url("./assets/churrasco.jpg");
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+}
+
+.container input{
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: red;
+    border-radius: 7px;
+    border-width: 5;
+    border-color: red;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+#titulo{
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+}
+
+#botao{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 40%;
+    padding: 10px;
+    background-color: black;
+    color: red;
+    border-color: red;
+    font-size: 15px;
+    border-width: 5;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resultado{
+    line-height: 25px;
+    margin-left: 10px;
+    color: white;
+    
+}
